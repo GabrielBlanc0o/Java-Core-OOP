@@ -18,10 +18,6 @@ public class Usuario {
     public String getNombre() {return nombre;}
     public int getEdad() {return edad;}
     public double getPeso() {return peso;}
-
-
-
-
 }
 
 

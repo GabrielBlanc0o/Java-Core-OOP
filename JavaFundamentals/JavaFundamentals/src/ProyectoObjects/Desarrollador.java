@@ -24,6 +24,7 @@ public class Desarrollador {
 
     public String getNombre() {return nombre;}
     public String getStack() {return stack;}
+    public int getAnios() {return experienciaAnios;}
    // metodos old en memoria getters :v
 
 

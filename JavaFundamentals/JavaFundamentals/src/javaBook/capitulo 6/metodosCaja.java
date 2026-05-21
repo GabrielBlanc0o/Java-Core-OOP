@@ -1,17 +1,17 @@
 class caja {
-    int ancho;
-    int alto;
-    int profundidad;
+    double ancho;
+    double alto;
+    double profundidad;
 
 
     // mostrar volumen de  caja
     void volumen(){
-        System.out.println("Volumen es ");
+        System.out.print("Volumen es ");
         System.out.println(ancho*alto*profundidad);
         }
     }
 
-class BoxDemo {
+class metodosCaja {
     
     public static void main(String[] args){
         caja miCaja = new caja();

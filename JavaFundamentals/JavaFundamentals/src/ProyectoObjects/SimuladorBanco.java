@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 class CuentaBancaria{
-    
     private String titular;
     private double saldo;
 
@@ -9,9 +8,12 @@ class CuentaBancaria{
         this.titular = titular;
         this.saldo = saldo;
     }
-
     public double getSaldo(){
         return this.saldo;
+    }
+
+    public void setSaldo(double saldo) {
+    this.saldo = saldo;
     }
 
     public double retirar(double cantidad){
@@ -37,6 +39,31 @@ class CuentaBancaria{
     }
 }
 
+class CuentaCorriente extends CuentaBancaria{
+
+    private double limiteSobregiro ;
+    CuentaCorriente(String titular, double saldo,double limiteSobregiro) {
+        super(titular, saldo);
+        this.limiteSobregiro = limiteSobregiro;
+    }
+    @Override
+    public double retirar(double cantidad){
+        double saldo = getSaldo();
+        double limite =  saldo + limiteSobregiro;
+
+        if (cantidad > limite) {
+              System.out.println("Sobregiro detectado..");     
+               System.out.println(" Error: Límite de sobregiro excedido. Fondos insuficientes.");     
+        }
+        else{ 
+            System.out.println(" Procesando retiro con autorización de sobregiro...");
+            setSaldo(saldo - cantidad);
+            System.out.printf(" Se han retirado $ %f exitosamente.\n", cantidad);
+        }
+        return cantidad;
+    }
+}
+
 public class SimuladorBanco{
     public static void main(String[] args){
         System.out.println("=== SISTEMA BANCARIO INICIADO ===");
@@ -50,7 +77,7 @@ public class SimuladorBanco{
             double saldoInicial = scanner.nextDouble();
             scanner.nextLine();
 
-            CuentaBancaria datos = new CuentaBancaria(nombre, saldoInicial);
+            CuentaBancaria datos = new CuentaCorriente(nombre, saldoInicial,50.0);
 
             System.out.println("--- Ingresando al menu... para salir al final presiona 6. ---");
             boolean statusOperaciones = true;
@@ -79,12 +106,8 @@ public class SimuladorBanco{
                 } if (opcion == 3) {
                     try {
                        System.out.println("Ingresa la cantidad que deseas retirar: ");
-                            double montoRetirar = scanner.nextDouble();
-                            if (montoRetirar > datos.getSaldo()) {
-                                System.out.println("Saldo Insuficiente.");
-                            } else{
-                                datos.retirar(montoRetirar);
-                            }
+                        double montoRetirar = scanner.nextDouble();
+                        datos.retirar(montoRetirar);
                     } catch (NumberFormatException e) {
                         System.out.println("--- Error porfavor ingrese unicamente numeros.");
                     } finally {

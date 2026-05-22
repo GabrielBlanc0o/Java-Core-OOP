@@ -2,7 +2,7 @@ class controles{
     int puntos ;
     
     void generarPuntos(){
-        puntos = (int)(Math.random()*20) + 1;
+        puntos = (int)(Math.random()*10) + 1;
     }
 }
 

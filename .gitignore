@@ -1,8 +1,0 @@
-*.class
-.idea/
-out/
-.project
-.classpath
-*.iml
-untitled/
-test.java

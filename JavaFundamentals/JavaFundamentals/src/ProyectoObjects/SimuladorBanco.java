@@ -13,7 +13,7 @@ class CuentaBancaria{
     }
 
     public void setSaldo(double saldo) {
-    this.saldo = saldo;
+        this.saldo = saldo;
     }
 
     public double retirar(double cantidad){
@@ -41,7 +41,7 @@ class CuentaBancaria{
 
 class CuentaCorriente extends CuentaBancaria{
 
-    private double limiteSobregiro ;
+    private final double limiteSobregiro ;
     CuentaCorriente(String titular, double saldo,double limiteSobregiro) {
         super(titular, saldo);
         this.limiteSobregiro = limiteSobregiro;

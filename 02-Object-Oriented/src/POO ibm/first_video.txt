@@ -62,3 +62,16 @@ La encapsulacion protegue datos sensibles, define propiedades privadas, y da acc
 El Polimorfismo permite que diferentes objetos compartan ua interfaz comun como una interfaz de metodo de pago que se 
 pueda implementar en clases como pago con credito y no se por ejemplo nequi
 
+
+en recapitulacion a todo lo anterior que vi en el video se aprendi que los objetos son instancias especificas conpropiedades
+y comportamientos unicos , mientras que las clases sirven como planos que definen propiedades y metodos 
+compartidos para crear objetos.
+
+Las propiedades son los atributos de un objeto y los metodos definen sus acciones, la herencia permite que 
+las nuevas clases deriven propiedades y metodos de las existentes. La encapsulacion garantiza que los detalles 
+internos de un objeto permanezcan ocultos, exponiendo solo la info necesaria.
+
+y por ultimo el Polimorfismo permite que los objetos utilicen la misma interfaz pero exhiban comportamientos
+diferentes 
+
+

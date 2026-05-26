@@ -18,7 +18,7 @@ class CuentaBancaria{
 
     public double retirar(double cantidad){
         if (cantidad > getSaldo()) {
-            System.out.println("Error : Fondos insuficientes");            
+            throw new IllegalArgumentException("Error: Fondos insuficientes.");            
         }
         else{
             saldo -= cantidad;
@@ -33,7 +33,7 @@ class CuentaBancaria{
             saldo += cantidad;
             System.out.println("Deposito correcto..");
         } else {
-            System.out.println("Error: No puedes depositar cantidad negatvas.");
+            throw new IllegalArgumentException("Error: No puedes depositar cantidades menores o iguales a cero.");
         }
         return cantidad;
     }

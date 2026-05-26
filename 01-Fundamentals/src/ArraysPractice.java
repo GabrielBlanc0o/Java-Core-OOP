@@ -3,7 +3,7 @@
 
 import java.util.ArrayList;
 
-public class arrays {
+public class ArraysPractice {
 
 	public static void main(String[] args) {
 		

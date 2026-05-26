@@ -1,0 +1,64 @@
+Programacion orientada a objetos en Java. 26/05/2026
+
+Primero dice que un objeto tiene sus caracteristicas
+
+Las clases sirven de mapa para crear objetos, define las caracteristicas, por ejemplo un auto
+
+Un auto tiene caracteristicas como el color la velocidad o acciones mientras se conduce y se pita.
+
+mientras que el objeto es un carro en especifico con tratos unicos, la clase es la plantilla general.
+
+
+Las propiedades son las caracteristicas del objeto 
+
+por ejemplos las propiedades del carro son el color velocidad y modos .
+
+Los METODOS son las acciones ejecutadas por el objeto como conducir pitar y parquear
+
+
+la herencia es el camino a crear nuevas clases en base de otras clases ya existentes ,
+ como un arbol familiar,
+
+que nuevas clases son creadadas desde la clase padre, esas subclases heredan propiedades y meotodos por 
+ejemplo del auto, la clase carro tiene metodos para el carro pero tiene atributos unicos, por ejemplo 
+el carro electrico es una subclase que podria tener una propiedad adicional llamada "vida de la bateria"
+
+La encapsulacion trata de meter todo los datos y metodos en una sola unidad, y llamarla al exterior solo
+lo que se necesite mostrar y oculta los datos externos, para mostrar unicamente la informacion necesaria
+
+Un ejemplo de encapsulacion es el controlo de la tv, no necesitamos conocer como funciona la tv por dentro,
+como por ejemplo como las señales son procesadas o como la pantalla muestra las imagenes.
+
+Polimorfismo:
+
+Trata a los objetos como instancias de su clase padre, para que el metodo funcione con diferentes 
+tipos de objetos.
+
+Por ejemplo un helicoptero y un cohete ambos vuelan con un metodo fly, cuando el helicoptero usa fly, 
+usa las helices para despegar, mientras que el cohete usa su motor de propulsion y se lanza al espacio,
+misma funcion diferentes objetos
+
+
+un ejemplo de la Programacion orientada a objetos es
+
+Una clase Libro sirve como plantilla general, incluye propiedades como el titulo el autor y el precio.
+Mientras que la clase cliente tiene propiedades como el nombre correo  y direccion.
+
+
+cada clase tiene metodos que definen su comportamiento , por ejemplo en la clase libro puede tener metodos
+para mostrar los detalles del libro o aplicar descuento , mientras que la clase customer puede tener
+ metodos para crear una cuenta y procesar una orden .
+
+esos metodos dan la funcionalidad a las clases mostrando como pueden realizar ciertas tareas 
+
+
+EJEMPLO de la poo:
+
+La herencia permite que las clases especializadas exitendan la funcionalidad de la clase base
+y agreguen propiedades , por ejemplo la clase ebook puede heredad caracteristicas de las clase book
+
+La encapsulacion protegue datos sensibles, define propiedades privadas, y da acceso controlado .
+
+El Polimorfismo permite que diferentes objetos compartan ua interfaz comun como una interfaz de metodo de pago que se 
+pueda implementar en clases como pago con credito y no se por ejemplo nequi
+

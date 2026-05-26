@@ -1,4 +1,3 @@
-package ProyectoObjects;
 
 public class Desarrollador {
 

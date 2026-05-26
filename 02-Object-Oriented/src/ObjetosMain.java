@@ -1,5 +1,5 @@
 
-public class objetos {
+public class ObjetosMain {
 
 	public static void main(String []args) {
 		

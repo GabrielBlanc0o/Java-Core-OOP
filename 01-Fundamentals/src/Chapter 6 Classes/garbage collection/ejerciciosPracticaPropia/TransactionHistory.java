@@ -11,7 +11,7 @@ class sistema {
 
     boolean registrarPago(double monto){
         if (pop ==  historial.length - 1){
-            System.out.println("Historial lleno. Limpie registros.");
+            System.out.println("Historial lleno. Limpie registros");
             return false;
         } else {
             historial[++pop] = monto;
@@ -22,7 +22,7 @@ class sistema {
 
     double deshacerPago(){
         if (pop < 0){
-            System.out.println("No hay transaccipnes para revertir");
+            System.out.println("No hay transacciones para revertir");
             return 0.0;
         } else {
             return historial[pop--];

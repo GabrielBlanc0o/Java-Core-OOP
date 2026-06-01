@@ -1,7 +1,7 @@
 
 import java.util.ArrayList;
 
-public class metodosMod {
+public class MetodosMod {
 
 	static boolean estado = false;
 	

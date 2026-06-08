@@ -1,6 +1,8 @@
 // ocurre cuando una subclase nos da implementacion 
 // especifica de un metodo definido en una superclase
 
+/* Runtime Polimorfismo */
+
 class Animal
 {
     void sonido()

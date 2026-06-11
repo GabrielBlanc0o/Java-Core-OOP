@@ -1,22 +1,21 @@
-// Interface for devices that can be turned on/off
 interface Switchable {
     void turnOn();
     void turnOff();
 }
 
-// Interface for devices with adjustable settings
+
 interface Adjustable {
     void increase();
     void decrease();
 }
 
-// Interface for devices that can connect to a network
+
 interface Connectable {
-    void connect();
+     void connect();
     void disconnect();
 }
 
-// SmartBulb class implementing all three interfaces
+
 class SmartBulb implements Switchable, Adjustable, Connectable {
     private boolean isOn = false;
     private int brightness = 50; // Default brightness level
@@ -70,12 +69,12 @@ class SmartBulb implements Switchable, Adjustable, Connectable {
     }
 }
 
-// DimmableBulb class implementing two interfaces
+
 class DimmableBulb implements Switchable, Adjustable {
     private boolean isOn = false;
-    private int brightness = 50; // Default brightness level
+    private int brightness = 50; 
 
-    // Switchable methods
+    
     @Override
     public void turnOn() {
         isOn = true;
@@ -88,7 +87,7 @@ class DimmableBulb implements Switchable, Adjustable {
         System.out.println("DimmableBulb is turned OFF.");
     }
 
-    // Adjustable methods
+    
     @Override
     public void increase() {
         if (brightness < 100) {
@@ -110,7 +109,7 @@ class DimmableBulb implements Switchable, Adjustable {
     }
 }
 
-// RegularBulb class implementing one interface
+
 class RegularBulb implements Switchable {
     private boolean isOn = false;
 

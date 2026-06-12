@@ -41,6 +41,11 @@ class ContenedorHistorial
                 return "[LOG SECRETO] " + dato.toString();
             }
         }
+
+        Formateador f = new Formateador();
+        for (int i = 0; i < indice; i++) {
+            System.out.println(f.formatear(registros[i]));
+        }
     }
 }
 

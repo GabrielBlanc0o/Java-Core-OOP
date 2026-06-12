@@ -1,4 +1,5 @@
 # Java Mastery Journey 
+Diseñado y mantenido con disciplina por Gabriel Blanco.
 
 Bienvenido a mi espacio de documentación y práctica intensiva de **Java Core y Arquitectura Orientada a Objetos**. Este repositorio no es solo un bloc de notas de código, sino el reflejo de mi evolución técnica desde los fundamentos lógicos hasta el diseño de software desacoplado y eficiente.
 
@@ -36,3 +37,4 @@ El repositorio está organizado en módulos progresivos para garantizar un apren
 │       └── imccalc/         # Lógica aplicada al tracking de rendimiento físico.
 │
 └── 03-Advanced-Concepts/    # Manejo robusto de excepciones y simulación de conexiones a Bases de Datos.
+        

@@ -1,0 +1,27 @@
+/* una coleccion es un grupo de objetos 
+
+    las colecciones almacenan, recuperan, manipulan y
+    comunican datos agregados
+
+
+    TIPOS DE COLECCIONES EN JAVA
+
+    Listas:
+        - son de tipo ordenadas
+        - permiten duplicar elementos y mantienen orden
+        - se implementan en ArrayList y LinkedList
+
+    Sets:
+        - son desordenandas
+        - no permite duplicacion
+        -se implementan en HashSet y TreeSet
+    
+    Maps:
+        - son desordenandas
+        - son de tipo llave:valor donde cada llave es unica
+        - se implementan en HashMap y TreeMap
+
+        Ejemplo de arrayList.java
+*/
+
+

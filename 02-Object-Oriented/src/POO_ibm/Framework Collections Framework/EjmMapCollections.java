@@ -15,6 +15,7 @@ public class EjmMapCollections
         mapEdad.put("Gabriel", 18);
         mapEdad.put("Pepita", 50);
         mapEdad.put("Coco", 5);
+        
 
         for (HashMap.Entry<String,Integer> estu : mapEdad.entrySet())
         {

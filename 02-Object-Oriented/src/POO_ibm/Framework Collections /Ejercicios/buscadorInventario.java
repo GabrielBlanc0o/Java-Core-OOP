@@ -1,6 +1,5 @@
 import java.util.HashMap;
 
-
 interface Opciones {
     void verificarStock(String codigo);
 }

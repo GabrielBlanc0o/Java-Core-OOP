@@ -1,0 +1,22 @@
+Una queue o cola , es una coleccion de elementos que ofrece dos operaciones 
+principales
+
+La primera es enqueue,añade un elemento al final de la cola
+dequeue , remueve de la parte delantera de la cola
+
+las colas son estructuras de datos esencial en la programacion q sigue
+el principio FIFO "Primero en entrar, primero en salir"
+
+
+segun lo que se le agreguen se puede cambiar el tamaño dinamicamente
+eso si solo podemos acceder en orden al primer o ultimo elemento
+ambos extremos
+
+
+las colas pueden gestionar las tareas por orden de llegada para su
+ejecucion en los sistemas operativos para la generacion de copias 
+
+un ejemplo de una cola puede ser una impresora, imprime en orden de llegada
+
+en algoritmos de grafos, la busqueda con prioridad de amplitud (BFS)
+utilizan colas para explorar los nodos capa por capa

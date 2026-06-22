@@ -1,0 +1,32 @@
+Primero que todo importamos la libreria de listas array para q podamos usar 
+listas
+
+luego iniciamos nuetras clase principal con 3 funciones la principal 
+la de contar apariciones y transormar a mayusculas
+
+el primer metodo de tipo entero recibew un array y una cadena de texto
+inicia un contador en 0 para asi decir cuantas veces aparece el nombre 
+eso si con equals para que lo haga contando el objeto con un dato de tipo primitivo no comparando memoria si no contenido de cada string
+y aumente el contador en 1 y devuelva  
+
+la otra de tipo void recibe solo una lista , la recorre elemento por elemento
+
+y imprime cada una en mayuscula con el metodo uppercase
+
+y el metodo principal el main crea un array lista llamado nombres
+
+agrega uno primitivo gabriel en la memoria stack otro de tipo objeto nuevo
+en la memoria heap osea un espacio en memoria diferente 
+y otro distinto llamado mate
+
+crea la variable total de tipo entero primitivo que llama la funcion contarApariciones llamando a la lista y el string gabriel
+
+imrpime tambien la cantidad de veces q fue encontrado dado los dos parametros 
+q recibe la funcion total
+
+
+transforma a mayusculas con la funcion solo usando de de base el array q creamos antes
+
+y un for normal para q si el valor no es igual al primero de la lista con .get
+entonces un log q diga q el nombre + el item q no haga parte no pertenece y ya
+

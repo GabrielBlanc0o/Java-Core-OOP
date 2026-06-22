@@ -1,0 +1,62 @@
+Aplicar la abstraccion en java ayuda demasiado con el tema de hacer
+el codigo mas modular y facil de 
+documentar.
+
+EL video de IBM nos dice que para aplicar abstracciones en Java ,
+ es por medio de interfaces y clases abstractas.
+
+ El modo de operacion de la abstraccion es definiendo metodos para 
+ subclases a implementar, ocultar detalles complejos
+
+interfaces : Para acciones especificas
+    NO puede tener campos para instanciar o constructores 
+    Contiene constantes , metodos default o static y tipos anidados
+
+Las puntos clave son:
+
+    Metodo de firma:
+        permite solo declara metodos sin cuerpo.
+        Da una base esqueleto para implementar a las clases.
+
+    Herencia multiple:
+        Habilita a la clase implementar multiples interfaces.
+        Permite herencia de multiples tipos
+        todas las interfaces son publicas , para permitir que los metodos son
+        publicos por defecto
+
+
+    Clases abstractas:
+        Nos da funcionalidades compartidas
+
+Ejemplo : interfaces.java
+
+Las caracteristicas son
+
+    los metodos abstractos deben ser implementados por las subclases
+
+    los metodos concretos pueden ser usados o tambien para ser definidos
+    por las subclases
+
+    tienen Herencia unica, solo se puede extender una clase abstracta
+
+Ejemplo : clasesAbs.java
+
+
+COMPARACION DE INTERFACES CON CLASES abstractas
+
+Las interfaces solo soportan constantes mientras que las clases abstractas  
+    pueden contener espacios para recibir
+
+Las interfaces los metodos son abstractos por defecto , mientras que las Clases
+abstractas pueden contener metodos concretos
+
+las interfaces pueden tener Herencia multiple, las clases abstractas, solo
+pueden ser heredadas una vez.
+
+las interfaces pueden implementar una clase sin imponer alguna implementacion 
+en particular , mientras que las clases abstractas pueden compartir comportamientos
+en comun 
+
+
+
+

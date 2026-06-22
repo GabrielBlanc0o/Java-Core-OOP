@@ -1,0 +1,29 @@
+En Sets vimos 2 tipos:
+
+HashSet y TreeSet.
+
+Primero que todo, HashSet no almacena en ningún orden y no permite datos repetidos. 
+Su acceso es súper veloz al funcionar mediante tablas hash, por lo que encontrar datos es muy rápido. 
+Es eficiente si se prioriza la velocidad antes que el orden.
+
+Con diferencia a TreeSet, este es más lento ya que ordena automáticamente los elementos según su orden natural 
+o comparador definido. Tampoco permite duplicados.
+
+METODOS
+
+add()
+remove()
+contains()
+size()
+isEmpty()
+clear()
+
+METODOS PARA OPERACIONES EN CONJUNTOS
+
+addAll(otraColeccion) -> Para agregar todos los elementos de otra colección al Set (Unión).
+
+retainAll(otraColeccion) -> Conserva solo los elementos que existen tanto en el Set como en la colección pasada (Intersección).
+
+removeAll(otraColeccion) -> Elimina del Set los elementos que también existen en la colección pasada (Diferencia).
+
+containsAll(otraColeccion) -> Si contiene todos los elementos de la otra colección devuelve true (Validar subconjuntos).

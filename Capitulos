@@ -1,0 +1,42 @@
+2,3,5,6,7,8,9,10,17,20
+
+
+Chapter 2: An Overview of Java
+
+Sección obligatoria: "Object-Oriented Programming" (Abstracción y los 3 principios).
+
+Chapter 6: Introducing Classes
+
+Qué aprendes: Fundamentos de una clase, cómo crear objetos con new, constructores y la palabra clave this.
+
+Chapter 3: Data Types, Variables, and Arrays
+
+Qué aprendes: Tipos de datos (int, double, boolean), variables y arreglos (Arrays).
+
+Chapter 5: Control Statements
+
+Qué aprendes: Las decisiones (if, switch) y los ciclos (for, while, For-Each).
+
+Chapter 7: A Closer Look at Methods and Classes
+
+Qué aprendes: Sobrecarga (Overloading), control de acceso (public/private) y modificadores clave (static/final).
+
+Chapter 8: Inheritance
+
+Qué aprendes: Herencia (extends), uso de super, sobreescritura (Overriding) y Polimorfismo.
+
+Chapter 9: Packages and Interfaces
+
+Qué aprendes: Organización en paquetes y el uso de Interfaces (los contratos del código).
+
+Chapter 10: Exception Handling
+
+Qué aprendes: Estructuras try, catch, finally para que tu programa nunca se caiga.
+
+Chapter 17: Switch Expressions, Records, and Other Recently Added Features
+
+Sección obligatoria: "Records" (la forma moderna y limpia de Java 21 para transportar datos inmutables).
+
+Chapter 20: java.util Part 1: The Collections Framework
+
+Qué aprendes: Estructuras de datos dinámicas avanzadas (ArrayList, HashSet, HashMap).

@@ -1,0 +1,25 @@
+Facilita el desarrollo y mantenimiento de codigo , evitando la necesidad de saber su exacta clase
+antes, sistemas mas faciles de mantener por habilitar la separacion de la interfaz de la implementacion
+
+Acepta el metodo de resolucion dinamica habilitanto los cambios en el runtime y para sistemas complejos
+
+El polimorfismo permite a los objetos compartir la misma interfaz mientras muestrar diferentes contextos.
+
+los dos tipos de polimorfismo son : 
+
+al tiempo de compilacion y el de runtime
+
+al tiempo de compilacion, o sobrescritura del metodo, ocurre cuando multiples metodos en la misma clase tienen
+el mismo nombre pero difieren en el numero o tipo de parametros
+
+
+el runtime polimorfismo o metodo sobrecargam ocurre cuando una subclase da una especifica implementacion 
+de un metodo definido en una superclase.
+
+El polimorfismo es muy usado en:
+
+la reutilizacion del codigo
+desacoplamiento
+resolucion dinamica de metodo
+desarrollo FrameWork
+mantenimiento de codigo 

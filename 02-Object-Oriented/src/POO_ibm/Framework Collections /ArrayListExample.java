@@ -12,6 +12,7 @@ public class ArrayListExample
         frutas.add("Manzana");
         frutas.add("Banano");
         frutas.add("Cereza");
+        frutas.add("Cereza");
 
         // mostrar la lista 
         System.out.println("Frutas: "+ frutas);

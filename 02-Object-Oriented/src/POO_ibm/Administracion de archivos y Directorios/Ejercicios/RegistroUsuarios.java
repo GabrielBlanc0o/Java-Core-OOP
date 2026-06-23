@@ -47,7 +47,6 @@ public class RegistroUsuarios {
 
             if (opcion == 1) {
                 try(BufferedWriter writer = new BufferedWriter(new FileWriter("usuarios.txt", true))){
-                    
                     System.out.println("Ingresa el nombre : ");
                     String nombre = sc.nextLine();
                     
@@ -61,7 +60,7 @@ public class RegistroUsuarios {
                 } catch (IOException e) {
                     System.out.println("Error " + e.getMessage());
                 }
-                
+
             } else if (opcion == 2) {
                 System.out.println("Saliendo...");
                 break;

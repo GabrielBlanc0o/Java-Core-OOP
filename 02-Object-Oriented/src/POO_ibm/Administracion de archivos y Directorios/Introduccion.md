@@ -1,5 +1,4 @@
-# Manejar archivos en Java
-
+# Java File Handling
 
 ## Que nos permite manejar los archivos en Java
 
@@ -11,3 +10,6 @@
 ## Clases Archivos
 
 * Representa el archivo o la ruta del directorio
+* Ofrece metodos para crear y eliminar archivos
+* Nos da funcionalidad para revisar la propiedades del archivo
+* Permite manejar archivos

@@ -14,7 +14,7 @@
 * Nos da funcionalidad para revisar la propiedades del archivo
 * Permite manejar archivos
 
-## Ejemplo Lectura
+## Ejemplo Primero
 
 * Podemos ver en el archivo FileExample.java como usar este paquete
 * Podemos ver como creamos un punto de referencia , llamando a la clase File., y la llamamos con un archivo de referencia si existe con el metodo .exists() , que imprima que encontro, si no , que no encontro el archivo

@@ -48,7 +48,7 @@ class Producto {
     }
     
     public String getString(){
-        return nombre.concat(" Cantidad " + this.cantidad + " Precio " + this.precio);
+        return nombre.concat(" Cantidad " + this.cantidad + "Precio " + this.precio);
     }
 }
 
@@ -82,7 +82,8 @@ class Inventario implements Operaciones {
                 if (cantidad > 0 && precio > 0){
                     mapa.put(nombre, cantidad);
                     precioP.add(precio);
-                    archivo.write("Nombre : "+ nombre + " Cantidad : " +  cantidad + " Precio : " + precio);
+                    archivo.write("\nNombre: "+ nombre + "\nCantidad: " +  cantidad + "\nPrecio: " + precio );
+                    archivo.newLine();
                 } else {
                     System.out.println("La cantidad y precio no pueden ser negativas.");
                     sc.nextLine();
@@ -91,7 +92,6 @@ class Inventario implements Operaciones {
             System.out.println("Error " + e.getMessage());
         }
     }
-
 
     @Override
     public void buscar() {
@@ -111,7 +111,8 @@ class Inventario implements Operaciones {
     public void listar() {
         try (BufferedReader leer = new BufferedReader(new FileReader("resultados.txt"))) {
             System.out.println("Contenido : ");
-            leer.lines().forEach(System.out::println);
+            leer.lines().forEach(System.out::println );
+            System.out.println();
         } catch (IOException e ) {
             System.out.println(" Error " +  e.getMessage());
         }

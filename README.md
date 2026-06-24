@@ -1,33 +1,19 @@
-Java Core & OOP
+# Java Core & OOP Architecture Showcase
 
-Repositorio de práctica intensiva en Java. 
+Welcome to my intensive, daily practice headquarters for Java backend development. Every line of code in this repository was written independently to master foundational computer science concepts, object-oriented design, and clean code principles.
 
-Todo el código aquí lo escribí yo, sin IA, aprendiendo y aplicando cada concepto el mismo día que lo estudié.
+##  Repository Structure & Architecture
 
+*   **`01-Fundamentals/src`**: Core syntax, primitive data types, control flow structures, casting operations, constructors, and basic class instantiation.
+*   **`02-Object-Oriented/src`**: The core framework of my OOP mastery. Real-world implementations of the 4 pillars: Encapsulation, Inheritance, Polymorphism, and Abstraction. Includes custom business logic engines:
+    *   *Banking System Simulator* (Encapsulation & State Management)
+    *   *Payment Gateway Engine* (Polymorphic interfaces)
+    *   *Fitness Performance Tracker* (Data abstraction)
+    *   *Data Collections*: Custom usage of ArrayList, LinkedList, HashSet, HashMap, TreeMap, and an internal custom Iterator pattern.
+*   **`03-Advanced-Concepts/src`**: Robust exception handling structures, memory management tracking, and database connection interface simulations.
+*   **`leetcode`**: Collection of resolved algorithmic challenges (Easy/Medium) optimized for execution time and memory efficiency.
 
-Qué hay acá
-
-01-Fundamentals
-Sintaxis base, tipos de datos, control de flujo, casting, constructores y primeras clases.
-
-02-Object-Oriented
-El núcleo del repo. Encapsulamiento, herencia, polimorfismo y abstracción aplicados a proyectos propios — sistema bancario, pasarela de pagos, tracker de rendimiento físico. Incluye colecciones (ArrayList, LinkedList, HashSet, HashMap, TreeMap) y patrón Iterator implementado desde cero con clases internas.
-
-03-Advanced-Concepts
-Manejo de excepciones y simulación de conexiones a base de datos.
-
-leetcode
-Problemas easy resueltos en Java. En progreso.
-
-EjercicioPoo
-Ejercicios sueltos de práctica.
-
-
-Stack
-
-Java 17 · POO · Collections Framework · Manejo de excepciones
-
-
-Siguiente paso
-
-Spring Boot · Spring Data JPA · REST APIs · PostgreSQL
+##  Tech Stack & Engineering Practices
+*   **Language**: Java (Core & OOP paradigms)
+*   **Version Control**: Strict Git/GitHub workflow with descriptive semantic commits simulating enterprise level production environments.
+*   **Design Philosophy**: Adherence to SOLID principles, Single-Responsibility methods, DRY (Don't Repeat Yourself), and high readability.

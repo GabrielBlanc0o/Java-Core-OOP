@@ -13,7 +13,7 @@ class accionEjecutable implements metodo {
 
     @Override
     public void escribir(){
-        try (FileOutputStream archivo = new FileOutputStream("salida.txt"))
+        try (FileOutputStream archivo = new FileOutputStream("salida.txt",true))
         {
             archivo.write("Hola, Java!".getBytes());
         } catch(IOException e) {
@@ -38,7 +38,18 @@ class accionEjecutable implements metodo {
 
     @Override
     public void copiar() {
-         
+            try (FileInputStream i = new FileInputStream("salida.txt");
+                FileOutputStream o = new FileOutputStream("copia.txt"
+            )) {
+            byte[] buffer = new byte[1024];
+            int bytesLeidos;
+            
+            while ((bytesLeidos = i.read(buffer)) != -1) {
+                o.write(buffer, 0, bytesLeidos);
+            }
+            } catch(IOException e) {
+                    System.out.println("Error" + e.getLocalizedMessage());
+            }
     } 
 }
 
@@ -48,7 +59,6 @@ public class Ejercicio1 {
         accionEjecutable Menu = new accionEjecutable();
         Menu.escribir();
         Menu.leer();
-        
-
+        Menu.copiar();
     }
 }

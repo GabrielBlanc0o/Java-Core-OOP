@@ -17,7 +17,7 @@ class opciones implements metodos {
     @Override
     public void escribir() {
         int contador = 1;
-        try(BufferedWriter archivo = new BufferedWriter(new FileWriter("notas.txt"))){
+        try(BufferedWriter archivo = new BufferedWriter(new FileWriter("notas.txt",true))){
             archivo.write(contador + ". Java");
             archivo.newLine();
             contador++;
@@ -36,7 +36,7 @@ class opciones implements metodos {
             String linea;
             int contador = 1;
             while((linea = leer.readLine()) != null) {
-                System.out.println(linea);
+                System.out.println(contador + linea);
                 contador++;
             }
             System.out.println("Total lineas: " + (contador - 1));

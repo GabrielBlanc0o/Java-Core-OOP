@@ -1,0 +1,5 @@
+
+[ERROR] Conexión fallida a la base de datos PostgreSQL.
+[ERROR] NullPointerException en la línea 45 de la lógica de negocio.
+[ERROR] Conexión fallida a la base de datos PostgreSQL.
+[ERROR] NullPointerException en la línea 45 de la lógica de negocio.

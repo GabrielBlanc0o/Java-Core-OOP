@@ -1,0 +1,5 @@
+[INFO] Sistema iniciado correctamente.
+[ERROR] Conexión fallida a la base de datos PostgreSQL.
+[INFO] Usuario GabrielBlanco00 inició sesión.
+[ERROR] NullPointerException en la línea 45 de la lógica de negocio.
+[WARNING] El uso de memoria RAM superó el 80%.

@@ -14,3 +14,9 @@ public class WriteToFile {
         }
     }
 }
+
+/*
+ * entonces instanciamos los dos paquetes y este si crea el archivo
+ * luego con el metodo escribimos y insertamos lineas y usamos
+ * la excepcion para manejar los errores.
+ */

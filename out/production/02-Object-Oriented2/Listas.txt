@@ -1,0 +1,23 @@
+Repasando el tema de Listas en Colecciones
+
+Tenemos ArrayList y LinkedList.
+
+Primero que todo, ArrayList inicia con un tamaño dinámico y si el tamaño aumenta,
+crea un arreglo más grande y copia los elementos al nuevo arreglo.
+Es rápido para acceder a elementos por índice, pero lento para modificaciones en posiciones 
+intermedias y para búsquedas por valor.
+
+A comparación de LinkedList que funciona a través de nodos enlazados, el tamaño no es problema.
+Puede modificarse de manera eficiente y rápida sin necesidad de mover tantos elementos, aunque 
+para buscar elementos tiende a ser más lenta porque debe recorrer los nodos.
+
+METODOS
+
+.add()
+.set()
+.remove()
+.clear() Limpiar toda la Lista
+.get(i) Obtener elemento por índice
+.contains() Si contiene el elemento
+.isEmpty() Si está vacío
+.size() Cantidad de elementos en la Lista

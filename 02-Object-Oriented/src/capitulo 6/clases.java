@@ -1,6 +1,6 @@
 
 // forma general de una clase en Java
-
+/*
 public class clases {
     
     class classname {
@@ -19,7 +19,8 @@ public class clases {
 
         type metodoN(parametro-lista){
             // cuerpo del metodo
-        }s
+        }
     }
 
 }
+/*

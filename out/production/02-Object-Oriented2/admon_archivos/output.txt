@@ -1,0 +1,2 @@
+Hola, mundo!
+Esto es un ejemplo del manejo de un archivo en java 

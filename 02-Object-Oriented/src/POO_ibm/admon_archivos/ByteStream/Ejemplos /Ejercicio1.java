@@ -9,7 +9,6 @@ interface metodo {
 }
 
 class accionEjecutable implements metodo {
-
     @Override
     public void escribir(){
         try (FileOutputStream archivo = new FileOutputStream("salida.txt",true))

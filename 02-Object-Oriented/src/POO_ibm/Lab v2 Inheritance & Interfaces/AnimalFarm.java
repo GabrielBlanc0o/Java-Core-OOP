@@ -5,25 +5,25 @@ public class AnimalFarm {
 		Scanner scanner = new Scanner(System.in);
 		Animal[] animals = new Animal[10];
 		int anmlIdx = 0;
-		while(true) {
-			System.out.println(	"Press 1 to view the animals, " +
-								"\n2 to add animals, "+
-								"\nany other key to exit");
+		while (true) {
+			System.out.println("Press 1 to view the animals, " +
+					"\n2 to add animals, " +
+					"\nany other key to exit");
 			String userAction = scanner.nextLine();
 			if (userAction.equals("1")) {
-				for(int i=0;i<animals.length;i++) {
-					if(animals[i] != null) {
+				for (int i = 0; i < animals.length; i++) {
+					if (animals[i] != null) {
 						System.out.println(animals[i]);
 					}
 				}
 			} else if (userAction.equals("2")) {
-				if(anmlIdx == 10) {
+				if (anmlIdx == 10) {
 					System.out.println("10 animals added already. Cannot add any more animals!");
 					continue;
 				}
-				System.out.println("Which animal do you want to create? \nPress 1 for dog,"+ 
-									"\n2 for cat " +
-									"\n3 for cow" );
+				System.out.println("Which animal do you want to create? \nPress 1 for dog," +
+						"\n2 for cat " +
+						"\n3 for cow");
 				String animalChoice = scanner.nextLine();
 				if (animalChoice.equals("1")) {
 					System.out.println("Enter the name of the dog");
@@ -91,3 +91,4 @@ public class AnimalFarm {
 			super(name);
 		}
 	}
+}
